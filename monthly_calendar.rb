@@ -38,3 +38,4 @@ year = params.fetch(:y, Date.today.year).to_i
 mon = params.fetch(:m, Date.today.month).to_i
 
 puts monthly_calendar(year, mon)
+
