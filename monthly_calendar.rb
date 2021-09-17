@@ -26,9 +26,6 @@ opt = OptionParser.new
 
 params = {}
 
-year = Date.today.year
-mon = Date.today.month
-
 opt.on('-m mon')
 opt.on('-y year')
 
