@@ -2,7 +2,7 @@
 
 require 'date'
 
-def monthly_calendar(year = Date.today.year, mon = Date.today.month)
+def monthly_calendar(year, mon)
   firstday = Date.new(year, mon, 1).wday
   lastday = Date.new(year, mon, -1).day
   top = "#{mon}月 #{year}"
